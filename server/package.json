@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devs": "ts-node-dev src/index.ts"
+    "devs": "ts-node-dev src/index.ts",
+    "knex-migrate": "knex --knexfile knexfile.ts migrate:latest"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "knex": "^0.21.2"
+    "knex": "^0.21.2",
+    "sqlite3": "^5.0.0"
   }
 }

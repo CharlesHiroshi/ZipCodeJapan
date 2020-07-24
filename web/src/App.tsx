@@ -1,13 +1,12 @@
 import React from 'react'
 import './App.css'
 
-import Header from './Header'
+import Home from '../src/pages/Home'
 
 function App() {
   return (
     <div>
-      <Header title='Zip Code Japan' />
-      <h2>Conteúdo da Aplicação</h2>
+      <Home />
     </div>
   )
 }

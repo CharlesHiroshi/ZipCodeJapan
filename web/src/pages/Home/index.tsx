@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { FiLogIn, FiPenTool } from 'react-icons/fi'
 import logo from '../../assets/logo.svg'
 import './styles.css'
@@ -13,15 +14,15 @@ const Home = () => {
         <main>
           <h1>Consulta de código postal do Japão</h1>
           <p>Acesse o cadastro para ver as funcionalidades do App</p>
-          <a href="/sign">
+          <Link to="/sign">
             <span><FiPenTool /></span>
             <strong>Cadastre-se</strong>
-          </a>
+          </Link>
           <p>Ou faça seu login se já fez seu cadastro</p>
-          <a href="/login">
+          <Link to="/login">
             <span><FiLogIn /></span>
             <strong>Login</strong>
-          </a>
+          </Link>
         </main>
       </div>
     </div>

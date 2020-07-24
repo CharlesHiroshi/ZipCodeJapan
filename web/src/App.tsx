@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
 
-import Home from '../src/pages/Home'
+import Routes from '../src/routes'
 
 function App() {
   return (
     <div>
-      <Home />
+      <Routes />
     </div>
   )
 }

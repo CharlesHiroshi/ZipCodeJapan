@@ -5,9 +5,10 @@ import Header from './Header'
 
 function App() {
   return (
-    <Header title='Zip Code Japan'>
-      <h1>Hello World!</h1>
-    </Header>
+    <div>
+      <Header title='Zip Code Japan' />
+      <h2>Conteúdo da Aplicação</h2>
+    </div>
   )
 }
 

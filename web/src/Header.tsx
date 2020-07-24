@@ -4,10 +4,10 @@ interface HeaderProps {
   title: String
 }
 
-const Header: React.FC<HeaderProps> = () => {
+const Header: React.FC<HeaderProps> = (props) => {
   return (
     <header>
-      <h1>Zip Code Japan</h1>
+      <h1>{props.title}</h1>
     </header>
   )
 }
